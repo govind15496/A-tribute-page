@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<style>
+		.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+#img-caption{
+  font-size: 30px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+#tribute-link{
+  color:red;
+}
+
+	</style>
+  </head>
+  <body>
+    <main id="main">
+
+      <h1 id="title" class="center" >Nature</h1>
+
+      <div id="img-div">
+        <div class="row">
+          <div class="column"></div>
+          <div class="column">
+            <img src="C:\Users\GOVIND\Documents\New folder/1.jpg" alt="1" id="image">
+            <img src="C:\Users\GOVIND\Documents\New folder/2.jpg" alt="2" id="image">
+            <img src="C:\Users\GOVIND\Documents\New folder/3.jpg" alt="3" id="image">
+            <img src="C:\Users\GOVIND\Documents\New folder/4.jpg" alt="4" id="image">
+          </div>
+          <div class="column">
+            <img src="C:\Users\GOVIND\Documents\New folder/5.jpg" alt="5" id="image">
+            <img src="C:\Users\GOVIND\Documents\New folder/6.jpg" alt="6" id="image">
+            <img src="C:\Users\GOVIND\Documents\New folder/7.jpg" alt="7" id="image">
+            <img src="C:\Users\GOVIND\Documents\New folder/8.jpg" alt="8" id="image">
+            <img src="C:\Users\GOVIND\Documents\New folder/9.jpg" alt="9" id="image">
+         </div>
+          <div class="column"></div>
+        </div>
+        <p id="img-caption" class="center"><em>One and only.</em></p>
+      </div>
+
+   <div id="tribute-info" class="center">
+          <p>Nature, in the broadest sense, is the natural, physical, material world or universe.</p>
+          <p>"Nature" can refer to the phenomena of the physical world, and also to life in general."</p>
+          <p>The study of nature is a large, if not the only, part of science.</p>
+          <p>Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.</p>
+          <p>The word nature is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth</p>
+
+
+      </div>
+      <div class="center">
+        <a href="https://en.wikipedia.org/wiki/Nature" target="_blank" id="tribute-link">
+          Learn more about Nature.
+        </a>
+      </div>
+    </main>
+  </body>
+
+</html>
